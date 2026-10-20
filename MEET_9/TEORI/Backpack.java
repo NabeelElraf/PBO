@@ -1,4 +1,4 @@
-public class Backpack extends BackpackingEquipment {
+public class Backpack extends HikingEquipment {
     private final int capacityLiters;
 
     public Backpack(String name, double weightKg, int capacityLiters) {

@@ -2,7 +2,7 @@
 
 ## Case study: AlatPendakian (Hiking Equipment)
 
-`BackpackingEquipment` is an abstract superclass: equipment shares a name, weight, and the concrete `showInfo()` behavior, but each kind explains its use differently. Its abstract `getUsage()` method requires every concrete subtype to provide that behavior. `Tent`, `SleepingBag`, and `Backpack` are concrete subclasses.
+`HikingEquipment` is an abstract superclass: equipment shares a name, weight, and the concrete `showInfo()` behavior, but each kind explains its use differently. Its abstract `getUsage()` method requires every concrete subtype to provide that behavior. `Tent`, `SleepingBag`, and `Backpack` are concrete subclasses.
 
 ### Abstract-class concept
 - An abstract class cannot be instantiated directly; it is intended to be extended.
@@ -18,4 +18,4 @@ javac *.java
 java Main
 ```
 
-`BackpackingEquipment.java` demonstrates both one concrete method (`showInfo`) and one abstract method (`getUsage`). The UML diagram is `AlatPendakian_AbstractClass.drawio`.
+`HikingEquipment.java` demonstrates both one concrete method (`showInfo`) and one abstract method (`getUsage`). The UML diagram is `AlatPendakian_AbstractClass.drawio`.

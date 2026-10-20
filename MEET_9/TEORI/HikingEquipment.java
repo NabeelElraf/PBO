@@ -1,8 +1,8 @@
-public abstract class BackpackingEquipment {
+public abstract class HikingEquipment {
     private final String name;
     private final double weightKg;
 
-    public BackpackingEquipment(String name, double weightKg) {
+    public HikingEquipment(String name, double weightKg) {
         if (name == null || name.isBlank()) throw new IllegalArgumentException("Name is required");
         if (weightKg < 0) throw new IllegalArgumentException("Weight cannot be negative");
         this.name = name;

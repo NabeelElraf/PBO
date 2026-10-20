@@ -1,4 +1,4 @@
-public class SleepingBag extends BackpackingEquipment {
+public class SleepingBag extends HikingEquipment {
     private final int comfortTemperatureC;
 
     public SleepingBag(String name, double weightKg, int comfortTemperatureC) {
